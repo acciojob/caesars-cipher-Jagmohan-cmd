@@ -37,10 +37,10 @@ function rot13(encodedStr) {
   // Only change code below this line
 	for (let index = 0; index < encodedStr.length; index++) {
 		if(lookup[encodedStr[index]]){
-			decodedArr += lookup[encodedStr[index]];
+			decodedArr[index] += lookup[encodedStr[index]];
 		}
 		else{
-			decodedArr += encodedStr[index];
+			decodedArr[index] += encodedStr[index];
 		}	
 	}
 
