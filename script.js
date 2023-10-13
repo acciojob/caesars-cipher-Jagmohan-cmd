@@ -36,7 +36,7 @@ function rot13(encodedStr) {
   let decodedArr = ""; // Your Result goes here
   // Only change code below this line
 	for (let index = 0; index < encodedStr.length; index++) {
-			decodedArr += lookup[encodedStr[i]];
+			decodedArr += lookup[encodedStr[index]];
 	}
 
   return decodedArr; //return decodedArr
